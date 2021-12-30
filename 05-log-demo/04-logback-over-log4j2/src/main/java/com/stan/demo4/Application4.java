@@ -1,5 +1,6 @@
 package com.stan.demo4;
 
+import com.stan.log4j.demo.Application;
 import com.stan.log4j2.demo.Application2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class Application4 {
 
     public static void main(String[] args) {
         test();
+        Application.test();
         Application2.test();
     }
 
