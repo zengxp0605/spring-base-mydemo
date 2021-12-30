@@ -24,11 +24,13 @@ public class HelloServiceTest {
 
     // 使用xml配置bean,spring实现IOC
     @Test
-    public void beanXmlTest() {
+    public void beanXmlTest() throws Exception {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
         HelloService helloService = (HelloService) context.getBean("helloService");
         helloService.sayHello();
     }
 
-
+    public static void main(String[] args) {
+        System.out.println("test");
+    }
 }
