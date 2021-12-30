@@ -15,6 +15,7 @@
         <module>02-slf4j-log4j2</module>
         <module>03-slf4j-logback</module>
         <module>04-logback-over-log4j2</module>
+        <module>05-logback-over-logback</module>
     </modules>
 
 </project>
